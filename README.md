@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://img.shields.io/badge/version-1.1.0-blue" />
+    <img src="https://img.shields.io/badge/version-1.0.0-blue" />
 </p>
 
 # Docker-PHP
 
-A simple docker container for PHP
+A simple docker container for PHP & MySQL
 <img src="https://img.shields.io/badge/PHP-7.4-green" />
 
 ## Getting Started
@@ -27,7 +27,7 @@ cd your-project
 
 Clone
 ```
-git clone https://github.com/nicolas-herbez/docker-php.git .
+git clone https://github.com/nicolas-herbez/docker-php-mysql.git .
 ```
 
 ## How to use

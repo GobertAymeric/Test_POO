@@ -1,5 +1,6 @@
 <?php
 
+
 class Character {
 
     // Attributes
@@ -7,9 +8,9 @@ class Character {
     private $def;
 
     // Constructor
-    public function __construct($baseL = 10, $baseD = 6) {
-        $this->setLife($baseL);
-        $this->setDef($baseD);
+    public function __construct($life = 10, $def = 0) {
+        $this->setLife($life);
+        $this->setDef($def);
     }
 
     // Getters
@@ -31,11 +32,5 @@ class Character {
     }
 
     // Methods
-    public function describe() {
-        echo '<pre>';
-        print_r($this);
-        echo '</pre>';
-        // var_dump($this);
-    }
 
 }
